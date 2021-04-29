@@ -1,7 +1,7 @@
 require 'mongo'
 require 'json'
 
-mongoURI = "mongodb+srv://tse:FreshPeopleCheer@ts-cluster-ci22a.mongodb.net/csharp?retryWrites=true"
+mongoURI = ENV['MONGODB_URI']
 
 mongoClient = Mongo::Client.new(mongoURI)
 database = mongoClient.database
