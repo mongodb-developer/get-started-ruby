@@ -31,7 +31,7 @@ Execute the helper shell script followed by the MongoDB URI that you would like 
 You can invoke a terminal session within the Docker environment using the following command.
 From the top level directory, execute: 
 ```
-docker run -it -v "$(pwd):/workspace/ruby" -w /workspace/ruby ghcr.io/mongodb-developer/get-started-ruby:0.1 "sh"
+docker run -it -v "$(pwd):/workspace/ruby" -w /workspace/ruby ghcr.io/mongodb-developer/get-started-ruby:latest "sh"
 ```
 
 

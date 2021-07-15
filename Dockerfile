@@ -2,7 +2,7 @@ FROM ruby:3.0.1-alpine3.13
 
 LABEL org.opencontainers.image.source=https://github.com/mongodb-developer/get-started-ruby
 
-ARG DRIVER_VERSION=2.14.0
+ARG DRIVER_VERSION=2.15.0
 ARG MONGOID_VERSION=7.2.2
 
 RUN apk add musl-dev make gcc

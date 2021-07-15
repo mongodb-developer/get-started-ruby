@@ -8,5 +8,5 @@ fi
 echo "Executing ... "
 docker run --rm -e MONGODB_URI=${MONGODB_URI} \
     -v "$(pwd)":/workspace/ruby \
-    -w /workspace/ruby ghcr.io/mongodb-developer/get-started-ruby:0.1 \
+    -w /workspace/ruby ghcr.io/mongodb-developer/get-started-ruby:latest \
     "ruby getstarted.rb"
