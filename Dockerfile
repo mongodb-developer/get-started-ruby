@@ -1,4 +1,4 @@
-FROM ruby:3.0.1-alpine3.13
+FROM ruby:3.0-alpine3.13
 
 LABEL org.opencontainers.image.source=https://github.com/mongodb-developer/get-started-ruby
 
